@@ -9,8 +9,9 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from astrbot.api.event import AstrMessageEvent, MessageEventResult
 from astrbot.api import llm_tool, logger
 from astrbot.core.utils.astrbot_path import get_astrbot_data_path
+from astrbot.api.star import register # Import register
 
-
+@register("astrbot_plugin_reminder", "Soulter", "增强型待办提醒，支持批量添加和智能日程规划。", "0.0.1")
 class Main(star.Star):
     """增强型待办提醒，支持批量添加和智能日程规划。"""
 
