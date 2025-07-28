@@ -1,4 +1,5 @@
 name: reminder
-description: 使用 LLM 待办提醒
-author: Soulter
-version: 0.0.1
+author: JayLeo
+version: 0.2.0
+description: A plugin to render text to an image using an LLM and HTML.
+repo: https://github.com/JayLeo04/astrbot_plugin_toImg
